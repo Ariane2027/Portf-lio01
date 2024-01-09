@@ -1,0 +1,206 @@
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            color: #fff;
+            background-color: #333;;
+            margin: 0;
+            padding: 0;
+            
+        }
+
+
+header {
+    background-color: #333; /* Cor de fundo do cabeçalho */
+    color: #fff; /* Cor do texto no cabeçalho */
+    text-align: center;
+    padding: 20px;
+}
+
+nav {
+    background-color: #444; /* Cor de fundo da barra de navegação */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(245, 220, 1, 0.884);
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff; /* Cor dos links na barra de navegação */
+    padding: 10px;
+    
+}
+
+
+nav a:hover {
+    background-color: #555; /* Cor de fundo quando o mouse passa por cima dos links */
+}
+.sobre2{
+    margin: 10px 25px;
+    
+
+}
+.sobre1{
+    margin: 10px 25px;
+    background-color: #444; /* Cor de fundo dos projetos */
+    margin: 20px;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(245, 220, 1, 0.884);
+}
+    
+
+#conteiner{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    padding: 10px;
+    background-color: #444;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(245, 220, 1, 0.884);
+    
+   
+}
+#conteiner1{
+    display: flex;
+    /*flex-direction: column;*/
+    /*align-self: auto | flex-start | flex-end | center | baseline | stretch;
+
+    /*justify-self: flex-end;*/
+    
+    padding: 10px;
+    background-color: #444;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(245, 220, 1, 0.884);
+}
+#conteiner2{
+    display: flex;
+    /*flex-direction: column;*/
+    /*align-self: auto | flex-start | flex-end | center | baseline | stretch;
+
+    /*justify-self: flex-end;*/
+    
+    padding: 10px;
+    background-color: #444;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(245, 220, 1, 0.884);
+}
+.resumo{
+  margin: 10px;
+  width: 600px;
+
+}
+.resumo1{
+  margin: 10px;
+  width: 600px;
+
+}
+.tec{
+    margin: 10px;
+    margin-top: 100px;
+}
+.tec1{
+    margin: 0;
+}
+.tec2{
+    margin: 5px;
+    padding: 5px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgb(104, 100, 100);;
+}
+.container {
+    
+    margin:25px;
+}
+#educacao{
+   background-color: rgb(171, 247, 247);
+    
+}
+.projetos1{
+    margin: 20px;
+    text-align: center;
+}
+.projeto {
+    background-color: #444; /* Cor de fundo dos projetos */
+    /*margin: 20px;
+    padding: 20px;
+    border-radius: 8px;
+     /* Sombra leve nos projetos */
+}
+
+.imagem-dashboard {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    margin-top: 15px;
+    border-radius: 8px;
+}
+
+
+.icone-projeto {
+    width: 25px;
+    height: auto;
+    margin-right: 5px;
+}
+.contato{
+    text-align: center;
+    margin: 25px;
+    
+   
+}
+.redes-sociais{
+    width: 100px;
+    padding: 50px;
+    
+}
+#contato-conteiner{
+    display: flex;
+    justify-content:space-around;
+    align-content: flex-end;
+    margin: 50px;
+    padding: 10px;
+    
+}
+.redes-sociais {
+        width: 50px; /* Ajuste o tamanho conforme necessário */
+        height: 50px; /* Ajuste o tamanho conforme necessário */
+        margin: 10px; /* Ajuste as margens conforme necessário */
+        transition: transform 0.3s ease-in-out; /* Adiciona uma transição suave ao efeito hover */
+}
+    
+    /* Adicione os estilos de hover */
+.redes-sociais:hover {
+        transform: scale(1.1); 
+        background-color: #555;
+        border-radius: 8px;
+        width: 70px;
+    }/* Aumentafundo quando o mouse passa por cima dos links */
+
+footer fieldset {
+        border: 1px solid #ddd; /* Cor da borda */
+        padding: 10px; /* Espaçamento interno */
+        margin: 10px 0; /* Espaçamento externo (margem) */
+        border-radius: 5px; /* Cantos arredondados */
+        text-align: center;
+    }
